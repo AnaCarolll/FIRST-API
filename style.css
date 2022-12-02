@@ -1,0 +1,43 @@
+
+#novo{
+ 
+ width: 70px;
+ height: 30px;
+ font-family: 'Varela Round', sans-serif;
+ border-radius: 9px;
+ border-color: aliceblue;
+ color:aliceblue ;
+
+ background: url(./img/Fundo\ Do\ Céu\ Preto\ H5.jpeg)no-repeat;
+}
+#oie{
+    color: aliceblue;
+    text-align: center;
+}
+#novo:hover{
+background: url(./img/Dark\ Clouds\ Wallpapers\ For\ iPhone\ _\ Black\ Wallpapers\ For\ iPhone\ _\ iPhone\ Wallpapers\ _\ iGeeksBlog.jpeg)no-repeat;
+}
+body{
+    background-color: black;
+    background-image: linear-gradient( to right, black , transparent, purple ); 
+}
+.container{
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
+ 
+  
+}
+
+.container>img{
+    height:400px;
+}
+input:hover{
+background: url(./img/Fundo\ Do\ Céu\ Preto\ H5.jpeg)no-repeat;
+color: aliceblue;
+}
+input{
+    border-radius: 3px;
+    background: url(./img/Dark\ Clouds\ Wallpapers\ For\ iPhone\ _\ Black\ Wallpapers\ For\ iPhone\ _\ iPhone\ Wallpapers\ _\ iGeeksBlog.jpeg);
+    color: aliceblue;
+    text-align: center;
+}
