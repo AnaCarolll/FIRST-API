@@ -19,8 +19,26 @@ pegandoImagem (informacoes)
 }
 
 function pegandoImagem (informacoes){
-document.querySelector('.container').innerHTML = informacoes.explanation;
-document.querySelector('.container').innerHTML += `<img src ="${informacoes.url}">`;
+
+    document.querySelector(".title").innerHTML += informacoes.title;   
+    document.querySelector('.container').innerHTML = informacoes.explanation; 
+if (informacoes.media_type === "image") {
+    document.querySelector(".container").innerHTML +=
+    `<section id="img">
+        <img src="${informacoes.url}" alt="">
+    </section>`
+console.log('a magem')
+} else {
+    document.querySelector(".container").innerHTML =
+   ` <section id="video">
+        <iframe width="560" height="315" src="${informacoes.url}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>`
+console.log('vide')
+}
+
+
+
+    
 }
 
 

@@ -22,17 +22,26 @@ body{
     background-color: black;
     background-image: linear-gradient( to right, black , transparent, purple ); 
 }
-.container{
+.container, h2{
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
+ text-align: center;
+ 
+
  
   
 }
-
-.container>img{
-    height:400px;
-    margin-left: 230px;
+#video{
+    margin-left: 20px;
     margin-top: 10px;
+       border-radius: 9px;
+}
+
+#img{
+    height:400px;
+    width: 90px;
+    margin-left: 30px;
+ margin-top: 10px;
     border-radius: 9px;
 }
 input:hover{
