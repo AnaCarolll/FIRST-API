@@ -20,7 +20,7 @@ pegandoImagem (informacoes)
 
 function pegandoImagem (informacoes){
 document.querySelector('.container').innerHTML = informacoes.explanation;
-document.querySelector('.container').innerHTML += `<img src ="${informacoes.url}"  >`
+document.querySelector('.container').innerHTML += `<img src ="${informacoes.url}">`
 }
 
 

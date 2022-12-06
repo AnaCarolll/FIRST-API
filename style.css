@@ -2,11 +2,12 @@
 #novo{
  
  width: 70px;
- height: 30px;
+ height: 24px;
  font-family: 'Varela Round', sans-serif;
  border-radius: 9px;
  border-color: aliceblue;
  color:aliceblue ;
+margin-bottom: 8px;
 
  background: url(./img/Fundo\ Do\ Céu\ Preto\ H5.jpeg)no-repeat;
 }
@@ -30,14 +31,22 @@ body{
 
 .container>img{
     height:400px;
+    margin-left: 230px;
+    margin-top: 10px;
+    border-radius: 9px;
 }
 input:hover{
 background: url(./img/Fundo\ Do\ Céu\ Preto\ H5.jpeg)no-repeat;
 color: aliceblue;
+
 }
 input{
     border-radius: 3px;
     background: url(./img/Dark\ Clouds\ Wallpapers\ For\ iPhone\ _\ Black\ Wallpapers\ For\ iPhone\ _\ iPhone\ Wallpapers\ _\ iGeeksBlog.jpeg);
     color: aliceblue;
-    text-align: center;
+    margin-left: 438px;
+    margin-right: 20px;
+    width: 100px;
+  height: 20px;
+  
 }
