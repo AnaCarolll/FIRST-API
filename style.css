@@ -9,12 +9,10 @@
 } */
 
 
-.container_principal{
+/* .container_principal{
     background-color: black;
     background-image: linear-gradient( to right, black , transparent, purple ); 
-}
-
-
+} */
 
 
 #novo{
@@ -23,7 +21,7 @@
  height: 24px;
  font-family: 'Varela Round', sans-serif;
  border-radius: 9px;
- border-color: aliceblue;
+ /* border-color: aliceblue; */
  color:aliceblue ;
 margin-bottom: 8px;
 
