@@ -1,3 +1,21 @@
+/* *{
+    padding: 0px;
+    margin:0px;
+    box-sizing: border-box;
+} */
+
+/* body{
+    height: 100hv;
+} */
+
+
+.container_principal{
+    background-color: black;
+    background-image: linear-gradient( to right, black , transparent, purple ); 
+}
+
+
+
 
 #novo{
  
@@ -18,10 +36,7 @@ margin-bottom: 8px;
 #novo:hover{
 background: url(./img/Dark\ Clouds\ Wallpapers\ For\ iPhone\ _\ Black\ Wallpapers\ For\ iPhone\ _\ iPhone\ Wallpapers\ _\ iGeeksBlog.jpeg)no-repeat;
 }
-body{
-    background-color: black;
-    background-image: linear-gradient( to right, black , transparent, purple ); 
-}
+
 .container, h2{
     font-family: 'Bebas Neue', cursive;
     color: aliceblue;
